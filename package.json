@@ -1,0 +1,17 @@
+{
+  "name": "bitburner-react-ui-example",
+  "version": "1.0.0",
+  "description": "An example for making your own UI modules using React in Bitburner.",
+  "main": "ui/ui.tsx",
+  "author": "oddiz",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf /build/* && tsc",
+    "dev": "rimraf /build/* && tsc -w"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "rimraf": "^3.0.2"
+  }
+}

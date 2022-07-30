@@ -1,0 +1,7 @@
+{
+    "bitburner.authToken": "YourAPIKeyHere",
+    "bitburner.scriptRoot": "./build",
+    "bitburner.fileWatcher.enable": true,
+    "bitburner.showFileWatcherEnabledNotification": true,
+    "bitburner.showPushSuccessNotification": true
+}
