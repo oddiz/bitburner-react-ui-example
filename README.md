@@ -17,7 +17,6 @@ Turns out it's pretty simple since React and ReactDOM are already present in `Wi
 
 1. Use an IDE with ability to sync files to Bitburner
    - There is a great extension available for VSCode which can be found [here](https://marketplace.visualstudio.com/items?itemName=bitburner.bitburner-vscode-integration)
-<br>
 
 2. Run the game
 
