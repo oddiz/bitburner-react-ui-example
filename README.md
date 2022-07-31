@@ -3,7 +3,7 @@
 </p>
 
 # Bitburner Custom UI with React Example
-<img align="right" width="100"  src="img/ui.png">
+<img align="right" width="150"  src="img/ui.png">
 
 Did you know you could use React to create custom UI components with access to netscript?
 
