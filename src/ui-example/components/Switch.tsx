@@ -1,18 +1,28 @@
-import { useOnHover } from "/ui/hooks/useOnHover";
+import { useOnHover } from "/ui-example/hooks/useOnHover";
 const cheatyWindow = eval("window") as Window & typeof globalThis;
 const React = cheatyWindow.React;
 
-export const Button = ({ bg, title, onButtonClick }: { bg: string; title: string; onButtonClick: () => void }) => {
+export const Switch = ({
+    title,
+    onClickHandler,
+    active,
+}: {
+    title: string;
+    onClickHandler: React.MouseEventHandler<HTMLDivElement>;
+    active: boolean;
+}) => {
     const buttonRef = React.useRef<HTMLDivElement>(null);
 
     const buttonHovered = useOnHover(buttonRef);
+
     return (
         <div
             ref={buttonRef}
-            onClick={onButtonClick}
+            onClick={onClickHandler}
             style={{
-                backgroundColor: bg,
-                border: "none",
+                width: "100px",
+                backgroundColor: active ? "green" : "transparent",
+                border: "white solid 1px",
                 color: "white",
                 padding: "5px 5px",
                 textAlign: "center",

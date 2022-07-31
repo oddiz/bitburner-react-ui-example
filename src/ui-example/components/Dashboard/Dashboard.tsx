@@ -1,7 +1,7 @@
 import { NS } from "typings/Bitburner";
-import { Button } from "/ui/components/Button";
-import { MonitorInput } from "/ui/components/Dashboard/MonitorInput";
-import { ToggleSection } from "/ui/components/Dashboard/ToggleSection";
+import { Button } from "/ui-example/components/Button";
+import { MonitorInput } from "/ui-example/components/Dashboard/MonitorInput";
+import { ToggleSection } from "/ui-example/components/Dashboard/ToggleSection";
 
 const cheatyWindow = eval("window") as Window & typeof globalThis;
 const React = cheatyWindow.React;

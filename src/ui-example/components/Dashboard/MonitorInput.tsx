@@ -1,5 +1,5 @@
 import { NS } from "typings/Bitburner";
-import { getAllServers } from "/utils/getAllServers";
+import { getAllServers } from "/ui-example/utils/getAllServers";
 
 const cheatyWindow = eval("window") as Window & typeof globalThis;
 const cheatyDocument = eval("document") as Document & typeof globalThis;

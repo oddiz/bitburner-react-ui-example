@@ -1,5 +1,13 @@
 import { NS } from "typings/Bitburner";
 
+export function main(ns: NS) {
+    ns.disableLog("ALL");
+
+    const allServers = getAllServers(ns);
+
+    ns.tprint("All servers: " + allServers.join(", "));
+}
+
 export function getAllServers(ns: NS) {
     try {
 
