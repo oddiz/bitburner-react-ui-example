@@ -1,4 +1,10 @@
+<p align="center">
+    <img  width="100"  src="img/logo.png">
+</p>
+
 # Bitburner Custom UI with React Example
+<img align="right" width="100"  src="img/ui.png">
+
 Did you know you could use React to create custom UI components with access to netscript?
 
 Turns out it's pretty simple since React and ReactDOM are already present in `Window` object of Bitburner.
@@ -10,7 +16,8 @@ Turns out it's pretty simple since React and ReactDOM are already present in `Wi
 ### Prerequisites
 
 1. Use an IDE with ability to sync files to Bitburner
-> There is a great extension available for VSCode which can be found [here](https://marketplace.visualstudio.com/items?itemName=bitburner.bitburner-vscode-integration)
+   - There is a great extension available for VSCode which can be found [here](https://marketplace.visualstudio.com/items?itemName=bitburner.bitburner-vscode-integration)
+<br>
 
 2. Run the game
 
