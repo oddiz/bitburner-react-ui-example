@@ -1,4 +1,4 @@
-import { Dashboard } from "ui/components/Dashboard/Dashboard";
+import { Dashboard } from "/ui/components/Dashboard/Dashboard";
 import { NS } from "../typings/Bitburner";
 
 // accessing global window or document in bitburner costs 25GB each normally. this saves RAM for early UI convenience, sorry devs pls don't fix.

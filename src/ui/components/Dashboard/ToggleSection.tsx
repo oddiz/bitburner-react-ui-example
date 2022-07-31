@@ -1,4 +1,4 @@
-import { Switch } from "../Switch";
+import { Switch } from "/ui/components/Switch";
 import { NS } from "typings/Bitburner";
 
 const cheatyWindow = eval("window") as Window & typeof globalThis;
