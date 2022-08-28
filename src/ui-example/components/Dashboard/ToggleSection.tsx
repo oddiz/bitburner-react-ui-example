@@ -6,10 +6,10 @@ const React = cheatyWindow.React;
 const { useState } = React;
 
 export const ToggleSection = ({ ns }: { ns: NS }) => {
-    const [nodeMaintActive, setNodeMaintActive] = useState(false);
-    const [remoteMaintActive, setRemoteMaintActive] = useState(false);
-
-    const [gangActive, setGangActive] = useState(false);
+    const [hackActive, setHackActive] = useState(false);
+    const [workActive, setWorkActive] = useState(true);
+    const [sleepActive, setSleepActive] = useState(false);
+    const [repeatActive, setRepeatActive] = useState(true);
 
     return (
         <div
@@ -25,25 +25,32 @@ export const ToggleSection = ({ ns }: { ns: NS }) => {
         >
             <h4 style={{ marginBottom: "5px" }}>Switches</h4>
             <Switch
-                title="Node Maint."
+                title="Hack"
                 onClickHandler={() => {
-                    setNodeMaintActive(!nodeMaintActive);
+                    setHackActive(!hackActive);
                 }}
-                active={nodeMaintActive}
+                active={hackActive}
             />
             <Switch
-                title="Remote Maint."
+                title="Work"
                 onClickHandler={() => {
-                    setRemoteMaintActive(!remoteMaintActive);
+                    setWorkActive(!workActive);
                 }}
-                active={remoteMaintActive}
+                active={workActive}
             />
             <Switch
-                title="Gang"
+                title="Sleep"
                 onClickHandler={() => {
-                    setGangActive(!gangActive);
+                    setSleepActive(!sleepActive);
                 }}
-                active={gangActive}
+                active={sleepActive}
+            />
+            <Switch
+                title="Sleep"
+                onClickHandler={() => {
+                    setRepeatActive(!repeatActive);
+                }}
+                active={repeatActive}
             />
         </div>
     );

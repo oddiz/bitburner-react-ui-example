@@ -34,8 +34,16 @@ export const Dashboard = ({ ns }: IDashboardProps) => {
                     flexDirection: "row",
                 }}
             >
-                <Button bg="red" title="Kill All!" onButtonClick={killAllClicked} />
-                <Button bg="green" title="Run!" onButtonClick={runClicked} />
+                <Button
+                    bg="red"
+                    title="Kill All!"
+                    onButtonClick={killAllClicked}
+                />
+                <Button
+                    bg="green"
+                    title="Run!"
+                    onButtonClick={runClicked}
+                />
             </div>
             <MonitorInput ns={ns} />
             <ToggleSection ns={ns} />

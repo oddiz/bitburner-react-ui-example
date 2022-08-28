@@ -6,8 +6,8 @@
   "author": "oddiz",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf /build/* && tsc",
-    "dev": "rimraf /build/* && tsc -w"
+    "build": "rimraf build/* && tsc",
+    "dev": "rimraf build/* && tsc -w"
   },
   "devDependencies": {
     "@types/react": "^18.0.15",
