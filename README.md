@@ -9,7 +9,7 @@ Did you know you could use React to create custom UI components with access to n
 
 Turns out it's pretty simple since React and ReactDOM are already present in `Window` object of Bitburner.
 
-Except for the input field titled Monitor, everything is placeholder and has no function in game.
+
 
 ## Getting Started
 
@@ -47,7 +47,7 @@ Run `ui-example/ui.js` from Bitburner:
 ```sh
 run ui-example/ui.js
 ```
-
+<sub><sup>Except for the input field titled Monitor, everything is placeholder and has no function in game.<sub><sup>
 
 ## Things to consider
 
