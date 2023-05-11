@@ -18,7 +18,7 @@ export async function main(ns: NS) {
     ns.tail();
     ns.disableLog("ALL");
 
-    while (ns.scriptRunning("/utils/monitor.js", "home")) {
+    while (ns.scriptRunning("/ui-example/utils/monitor.js", "home")) {
         const server = flags._[0];
         ns.clearLog();
 

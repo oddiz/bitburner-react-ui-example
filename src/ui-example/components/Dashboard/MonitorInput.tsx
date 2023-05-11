@@ -28,7 +28,7 @@ export const MonitorInput = ({ ns }: { ns: NS }) => {
     const onKeyDownHandler = async (e) => {
         if (e.key === "Enter") {
             if (suggestions.length === 1) {
-                ns.run("/utils/monitor.js", 1, suggestions[0]);
+                ns.run("/ui-example/utils/monitor.js", 1, suggestions[0]);
                 setSuggestions([]);
                 e.target.value = "";
             }
