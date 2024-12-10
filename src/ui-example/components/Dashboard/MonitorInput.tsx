@@ -35,11 +35,13 @@ export const MonitorInput = ({ ns }: { ns: NS }) => {
         }
     };
     const onFocusHandler = () => {
+        // disable Bitburner terminal input so that we can write inside our custom widget instead of game's terminal
         const terminalInput = cheatyDocument.getElementById("terminal-input") as HTMLInputElement;
         if (terminalInput) terminalInput.disabled = true;
     };
 
     const onFocusOut = () => {
+        // enable Bitburner terminal input again after focusing out of our widget input
         const terminalInput = cheatyDocument.getElementById("terminal-input") as HTMLInputElement;
         if (terminalInput) terminalInput.disabled = false;
     };
